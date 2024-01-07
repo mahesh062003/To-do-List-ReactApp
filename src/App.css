@@ -1,0 +1,133 @@
+body {
+  font-family:'Times New Roman', Times, serif;
+  background-image: url('/bg.png');
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.center-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.app-container {
+  width: 700px;
+  background-color: #000000;
+  padding: 20px;
+  border-radius: 50px;
+  box-shadow: 0 0 10px rgba(209, 153, 0, 0.1);
+  animation: fadeIn 0.5s ease-in-out;
+  transition: box-shadow 0.3s ease-in-out;
+  word-wrap: break-word;
+}
+
+@keyframes shake {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  10%, 30%, 50%, 70%, 90% {
+    transform: translateX(-5px);
+  }
+  20%, 40%, 60%, 80% {
+    transform: translateX(5px);
+  }
+}
+
+h1 {
+  text-align: center;
+  color: #f9f9fa;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+h1:hover{
+  animation: shake 0.09s;
+}
+
+input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 10px;
+  border: 1px solid #ffebeb;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #080808;
+  transition: border-color 0.3s ease-in-out;
+}
+
+input:focus {
+  border-color: #f8f0f8;
+}
+
+button {
+  background-color: #000000;
+  color: #fafafa;
+  border-color: #ffffff;
+  padding: 10px;
+
+  width: 100px;
+  margin-right: 5px;
+  cursor: pointer;
+  border-radius: 4px;
+  border-color:#ffffff ;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #b68705;
+  border-color: #000000;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform:capitalize;
+  font-weight: bold;
+  color:rgb(255, 255, 255);
+  margin-bottom: 10px;
+  border-bottom: 1px solid #255f99;
+  padding-bottom: 5px;
+  animation: slideIn 0.5s ease-in-out;
+}
+
+li:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+li button {
+  margin-left: auto;
+  
+  background-color: #ffffff;
+  color: #000000;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  transition: background-color 0.3s ease-in-out;
+}
+
+li button:hover {
+  background-color: #b68705;
+}
+
+@media screen and (max-width: 1024px) {
+  .app-container {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .app-container {
+    width: 90%;
+  }
+}
