@@ -12,7 +12,7 @@ Welcome to the React Todo App! This simple todo list application is built with R
   - [Usage](#usage)
   - [Styling](#styling)
   - [Contributing](#contributing)
-  - [License](#license)
+  - [Screenshots](#screenshots)
 </details>
 
 <details>
@@ -69,4 +69,10 @@ Welcome to the React Todo App! This simple todo list application is built with R
   
   Contributions are welcome! If you have any ideas for improvement or find any issues, please open an [issue](https://github.com/mahesh062003/To-do_list/issues) or submit a [pull request](https://github.com/mahesh062003/To-do_list/pulls).
 </details>
+
+## Screenshots
+
+
+![image](https://github.com/mahesh062003/To-do-List-ReactApp/assets/92420298/5e490f30-ac6a-4ff6-8576-aafd46284560)
+
 
